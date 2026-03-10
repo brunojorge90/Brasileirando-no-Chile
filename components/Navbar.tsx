@@ -112,10 +112,18 @@ export default function Navbar() {
             </a>
           ))}
           <a
+            href={LINKTREE}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 py-3 border border-white/15 text-white/70 font-medium rounded-xl text-center text-sm transition-all duration-300"
+          >
+            Redes Sociais
+          </a>
+          <a
             href={WHATSAPP}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-3 py-3 bg-primary-700 hover:bg-primary-600 text-white font-semibold rounded-xl text-center text-sm transition-all duration-300"
+            className="mt-2 py-3 bg-primary-700 hover:bg-primary-600 text-white font-semibold rounded-xl text-center text-sm transition-all duration-300"
           >
             Fale no WhatsApp
           </a>

@@ -49,9 +49,10 @@ const passeios: Passeio[] = [
     duracao: '10h',
     tag: null,
     imgs: [
-      'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      '/cajon-1.jpeg',
+      '/cajon-2.jpeg',
+      '/cajon-3.jpeg',
+      '/cajon-4.jpeg',
     ],
     sobre: 'Um dos roteiros mais deslumbrantes próximos a Santiago. O Cajón del Maipo é um cânion andino de tirar o fôlego, com lagoas de cor esmeralda, fontes termais naturais e paradas gastronômicas únicas.',
     destaques: [
