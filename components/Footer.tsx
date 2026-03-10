@@ -38,17 +38,20 @@ export default function Footer() {
 
           {/* Coluna 1 — Logo e slogan */}
           <div>
-            <div className="mb-4">
-              <span
-                className="text-2xl font-bold text-white"
-                style={{ fontFamily: 'Playfair Display, serif' }}
-              >
-                Brasileirando
-              </span>
-              <div className="flex items-center gap-2 mt-1">
-                <div className="h-px w-8 bg-[#8B1A1A]" />
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src="/logo.PNG"
+                alt="Brasileirando no Chile"
+                className="h-14 w-14 rounded-full object-cover ring-2 ring-white/10"
+              />
+              <div>
+                <span
+                  className="block text-xl font-bold text-white"
+                  style={{ fontFamily: 'Playfair Display, serif' }}
+                >
+                  Brasileirando
+                </span>
                 <span className="text-xs text-white/40 tracking-widest uppercase">no Chile</span>
-                <div className="h-px w-8 bg-[#8B1A1A]" />
               </div>
             </div>
             <p className="text-white/40 text-sm leading-relaxed">
