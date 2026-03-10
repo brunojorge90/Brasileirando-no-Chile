@@ -5,6 +5,8 @@ import { Menu, X } from 'lucide-react'
 
 const WHATSAPP = 'https://wa.me/5511985327937'
 
+const LINKTREE = 'https://linktr.ee/brasileirandonochile'
+
 const links = [
   { label: 'Quem Somos', href: '#quem-somos' },
   { label: 'Diferenciais', href: '#diferenciais' },
@@ -66,6 +68,15 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
+
+          <a
+            href={LINKTREE}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2.5 border border-white/15 hover:border-white/30 text-white/70 hover:text-white text-sm font-medium rounded-xl transition-all duration-300"
+          >
+            Redes Sociais
+          </a>
 
           <a
             href={WHATSAPP}
