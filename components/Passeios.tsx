@@ -1,6 +1,6 @@
 'use client'
 
-import { MapPin, Users, ArrowRight, Check, ShoppingBag, X, Clock, ChevronLeft, ChevronRight, Lightbulb, Star } from 'lucide-react'
+import { MapPin, ArrowRight, Check, ShoppingBag, X, ChevronLeft, ChevronRight, Lightbulb, Star } from 'lucide-react'
 import { useState, useEffect, useCallback } from 'react'
 
 type Passeio = {
@@ -415,14 +415,6 @@ function PasseioModal({
               </h2>
               <div className="flex items-center gap-4 mt-2 text-sm text-[#1B2A4A]/50">
                 <span className="flex items-center gap-1.5">
-                  <Clock size={14} />
-                  {passeio.duracao}
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <Users size={14} />
-                  Mín. {passeio.min}
-                </span>
-                <span className="flex items-center gap-1.5">
                   <MapPin size={14} />
                   Chile
                 </span>
@@ -607,14 +599,6 @@ export default function Passeios() {
                   </p>
 
                   <div className="flex items-center gap-3 text-xs text-[#1B2A4A]/40 mb-5">
-                    <span className="flex items-center gap-1">
-                      <Users size={11} />
-                      Mín. {p.min}
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <Clock size={11} />
-                      {p.duracao}
-                    </span>
                     <span className="flex items-center gap-1">
                       <MapPin size={11} />
                       Chile
