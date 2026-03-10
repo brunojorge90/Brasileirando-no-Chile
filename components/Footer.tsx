@@ -176,7 +176,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Brasileirando no Chile. Todos os direitos reservados.
           </p>
           <p className="text-white/20 text-xs">
-            Turismo privativo para brasileiros no Chile 🇧🇷🇨🇱
+            Desenvolvido por Bruno Jorge
           </p>
         </div>
       </div>
