@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
-const URL = 'https://brasileirandonochile.com'
+const SITE_URL = 'https://brasileirandonochile.com'
 
 export const metadata: Metadata = {
-  metadataBase: new URL(URL),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: 'Brasileirando no Chile | Passeios Privativos em Português',
     template: '%s | Brasileirando no Chile',
@@ -31,12 +31,12 @@ export const metadata: Metadata = {
   creator: 'Brasileirando no Chile',
   publisher: 'Brasileirando no Chile',
   alternates: {
-    canonical: URL,
+    canonical: SITE_URL,
   },
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    url: URL,
+    url: SITE_URL,
     siteName: 'Brasileirando no Chile',
     title: 'Brasileirando no Chile | Passeios Privativos em Português',
     description: 'Passeios privativos no Chile com atendimento em português. City Tour Santiago, Cajón del Maipo, Valle Nevado e muito mais. Motoristas experientes e roteiros personalizados.',
@@ -79,9 +79,9 @@ const jsonLd = {
   '@type': 'TouristInformationCenter',
   name: 'Brasileirando no Chile',
   description: 'Passeios privativos no Chile com atendimento em português para turistas brasileiros.',
-  url: URL,
-  logo: `${URL}/logo.PNG`,
-  image: `${URL}/logo.PNG`,
+  url: SITE_URL,
+  logo: `${SITE_URL}/logo.PNG`,
+  image: `${SITE_URL}/logo.PNG`,
   telephone: '+56927594661',
   priceRange: '$$',
   address: {
